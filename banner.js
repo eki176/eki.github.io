@@ -1,4 +1,4 @@
-const mapNextAds = ["https://ads.sehatimpian.my.id/main.js"];
+const mapNextAds = ["https://ads.gunungsatu.my.id/main.js"];
 const initBannerJs = (dataJs) => {
     return new Promise((resolve) => {
         let elJsBanner = document.createElement("script");
@@ -56,11 +56,11 @@ function closeSwallFromAdClick() {
     Swal.close();
 };
 (async () => {
-    const urlOpenClick = "https://shope.ee/7A1bZb1tpY";
-    let urlOpenClick2 = "https://shope.ee/7A1bZb1tpY";
-    let htmlOpen = `<a href="https://shope.ee/7A1bZb1tpY" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://ads.sehatimpian.my.id/Promohariini.png" /></a>`;
-    await initBannerJs("https://ads.sehatimpian.my.id/sweetalert2.min.js");
-    await initBannerCss("https://ads.sehatimpian.my.id/sweetalert2.min.css");
+    const urlOpenClick = "https://shope.ee/AK0dudfu0u";
+    let urlOpenClick2 = "https://shope.ee/AK0dudfu0u";
+    let htmlOpen = `<a href="https://shope.ee/AK0dudfu0u" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://ads.gunungsatu.my.id/Promo shopee.png" /></a>`;
+    await initBannerJs("https://ads.gunungsatu.my.id/sweetalert2.min.js");
+    await initBannerCss("https://ads.gunungsatu.my.id/sweetalert2.min.css");
     Swal.fire({
         title: "",
         html: htmlOpen,
